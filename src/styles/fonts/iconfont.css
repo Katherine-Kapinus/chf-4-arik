@@ -1,0 +1,74 @@
+@font-face { 
+	font-family: "iconfont"; 
+	font-display: swap;
+	src: url("C://Users/Kateryna/Documents/Kodik/2026/templates-chf-4/src/assets/svgicons/preview/iconfont.woff2?7cc650aa5c4be5e7ee8223a6b90e09e0") format("woff2"); 
+} 
+[class*="--icon-"]::before{
+	font-family: iconfont; 
+}
+	[class*="--icon-youTube"]::before { 
+		content: "\f101"; 
+	} 
+	[class*="--icon-whatsapp"]::before { 
+		content: "\f102"; 
+	} 
+	[class*="--icon-twiter"]::before { 
+		content: "\f103"; 
+	} 
+	[class*="--icon-twich"]::before { 
+		content: "\f104"; 
+	} 
+	[class*="--icon-twi"]::before { 
+		content: "\f105"; 
+	} 
+	[class*="--icon-tviter"]::before { 
+		content: "\f106"; 
+	} 
+	[class*="--icon-tiktok"]::before { 
+		content: "\f107"; 
+	} 
+	[class*="--icon-tch"]::before { 
+		content: "\f108"; 
+	} 
+	[class*="--icon-plus"]::before { 
+		content: "\f109"; 
+	} 
+	[class*="--icon-pinterest"]::before { 
+		content: "\f10a"; 
+	} 
+	[class*="--icon-phone"]::before { 
+		content: "\f10b"; 
+	} 
+	[class*="--icon-minus"]::before { 
+		content: "\f10c"; 
+	} 
+	[class*="--icon-mail"]::before { 
+		content: "\f10d"; 
+	} 
+	[class*="--icon-link"]::before { 
+		content: "\f10e"; 
+	} 
+	[class*="--icon-inst"]::before { 
+		content: "\f10f"; 
+	} 
+	[class*="--icon-info"]::before { 
+		content: "\f110"; 
+	} 
+	[class*="--icon-facebook"]::before { 
+		content: "\f111"; 
+	} 
+	[class*="--icon-dribble"]::before { 
+		content: "\f112"; 
+	} 
+	[class*="--icon-check"]::before { 
+		content: "\f113"; 
+	} 
+	[class*="--icon-benance"]::before { 
+		content: "\f114"; 
+	} 
+	[class*="--icon-arrow-top"]::before { 
+		content: "\f115"; 
+	} 
+	[class*="--icon-arrow-diagonal"]::before { 
+		content: "\f116"; 
+	} 

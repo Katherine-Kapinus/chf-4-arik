@@ -1,0 +1,82 @@
+{
+  "statistics": {
+    "sessions": [
+      {
+        "date": "15.01.2026",
+        "start": 1768497796170,
+        "end": 1768498418634
+      },
+      {
+        "date": "15.01.2026",
+        "start": 1768498426221,
+        "end": 1768500288159
+      },
+      {
+        "date": "15.01.2026",
+        "start": 1768500410325,
+        "end": 1768500650992
+      },
+      {
+        "date": "15.01.2026",
+        "start": 1768500658167,
+        "end": 1768505044788
+      },
+      {
+        "date": "15.01.2026",
+        "start": 1768505065783,
+        "end": 1768505322409
+      },
+      {
+        "date": "15.01.2026",
+        "start": 1768505330023,
+        "end": 1768505653054
+      },
+      {
+        "date": "15.01.2026",
+        "start": 1768505661272,
+        "end": 1768505770847
+      },
+      {
+        "date": "15.01.2026",
+        "start": 1768505784644,
+        "end": 1768505941840
+      },
+      {
+        "date": "15.01.2026",
+        "start": 1768505949484,
+        "end": 1768508594964
+      },
+      {
+        "date": "15.01.2026",
+        "start": 1768508604058,
+        "end": 1768513171243
+      }
+    ],
+    "files": [
+      "settings.scss",
+      "index.html",
+      "style.scss",
+      "twich.svg",
+      "twi.svg",
+      "tiktok.svg",
+      "pinterest.svg",
+      "phone.svg",
+      "mail.svg",
+      "link.svg",
+      "dribble.svg",
+      "check.svg",
+      "benance.svg",
+      "arrow-diagonal.svg",
+      "arrow-top.svg",
+      "facebook.svg",
+      "info.svg",
+      "inst.svg",
+      "minus.svg",
+      "youTube.svg",
+      "whatsapp.svg",
+      "plus.svg",
+      "components.html",
+      "button.scss"
+    ]
+  }
+}

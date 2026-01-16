@@ -1,0 +1,35 @@
+//<BUTTONS (a.btn+tab)>
+// Сніппет (HTML): btn
+.button {
+	text-transform: uppercase;
+	font-family: "Satoshi", sans-serif;
+	display: inline-flex;
+	padding: 10px 16px;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid $mainColorMuted;
+	border-radius: 2px;
+	background-color: $mainColorVeryMuted;
+	transition: all 0.5s ease;
+	@media (any-hover: hover) {
+		&:hover {
+			background-color: $mainColor;
+			color: $darkColor;
+		}
+	}
+	&--lite{
+		background-color: $mainColor;
+		color: $darkColor;
+		&:hover {
+			background-color: $darkColor;
+			color: $mainColor;
+		}
+	}
+	&--arrow{
+		flex-direction: row-reverse;
+		gap: 12px;
+	}
+	&--fw {
+		width: 100%;
+	}
+}
