@@ -3,6 +3,9 @@
 .button {
 	text-transform: uppercase;
 	font-family: "Satoshi", sans-serif;
+	font-size: 13px;
+	line-height: 21px;
+	letter-spacing: 1.5px;
 	display: inline-flex;
 	padding: 10px 16px;
 	align-items: center;
@@ -28,6 +31,37 @@
 	&--arrow{
 		flex-direction: row-reverse;
 		gap: 12px;
+	}
+
+	&--text{
+		padding: 0;
+		background-color: transparent;
+		border: none;
+		color: $mainColor;
+		column-gap: 12px;
+		font-size: 13px;
+		line-height: 21px;
+		&::before{
+			width: 32px;
+			height: 32px;
+			border-radius: 50%;
+			background-color: $mainColorMuted;
+			border: 1px solid $mainColor;
+			text-align: center;
+			align-content: center;
+			transition: all 0.3s ease-in;
+
+			}
+		@media (any-hover: hover) {
+			&:hover {
+				background-color: transparent;
+				color: $mainColor;
+				&::before{
+					background-color: $mainColor;
+					color: $darkColor;
+				}	
+			}
+		}
 	}
 	&--fw {
 		width: 100%;

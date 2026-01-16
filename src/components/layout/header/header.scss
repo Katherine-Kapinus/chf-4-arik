@@ -1,5 +1,24 @@
 .header {
-	// .header__container
+	position: fixed;
+	top: 48px;
+	left: 0;
+	right: 0;
+	z-index: 50;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	&__container {
+		display: flex;
+		align-items: center;	
+		column-gap: 20px;
+		padding: 12px;
+		background-color: $mainColorVeryMuted;
+		border: 2px solid $mainColorMuted;
+		border-radius: 2px;
+
 	}
+
+	&__logo-img {
+		padding-inline: 12px;
+		}
 }

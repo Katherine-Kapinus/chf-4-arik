@@ -1,7 +1,7 @@
 @font-face { 
 	font-family: "iconfont"; 
 	font-display: swap;
-	src: url("C://Users/Kateryna/Documents/Kodik/2026/templates-chf-4/src/assets/svgicons/preview/iconfont.woff2?7cc650aa5c4be5e7ee8223a6b90e09e0") format("woff2"); 
+	src: url("C://Users/Kateryna/Documents/Kodik/2026/templates-chf-4/src/assets/svgicons/preview/iconfont.woff2?bba47631f39971890a93b572a0c4e0ad") format("woff2"); 
 } 
 [class*="--icon-"]::before{
 	font-family: iconfont; 

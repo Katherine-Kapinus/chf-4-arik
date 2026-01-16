@@ -33,6 +33,8 @@
 	}
 	// .menu__list
 	&__list {
+		display: flex;
+		column-gap: 20px;
 		@media (max-width: toEm($mobile)) {
 		}
 	}
@@ -41,6 +43,9 @@
 	}
 	// .menu__link
 	&__link {
+		text-transform: uppercase;
+		font-size: 13px;
+		line-height: 21px;
 		@media (max-width: toEm($mobile)) {
 		}
 	}
