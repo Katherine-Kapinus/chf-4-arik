@@ -19,6 +19,9 @@
 			background-color: $mainColor;
 			color: $darkColor;
 		}
+		&:active {
+			scale: 0.9;
+		}
 	}
 	&--lite{
 		background-color: $mainColor;

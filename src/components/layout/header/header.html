@@ -1,14 +1,19 @@
 <header data-fls-header class="header">
 	<div class="header__container">
-		<if condition="'[[home]]' === 'true'">
-			<img src="@img/logo.svg" alt="Logo" class="header__logo-img">
-		</if>
-		<else>
-			<a href="index.html" class="header__logo">
+		<div class="header__logo">
+			<if condition="'[[home]]' === 'true'">
 				<img src="@img/logo.svg" alt="Logo" class="header__logo-img">
-			</a>
-		</else>
-		<include src="@components/layout/menu/menu.html" locals='{"active":"[[active]]"}'></include>
-		<a href="#" data-fls-button class="header__button button button--lite">Let's talk</a>
+			</if>
+			<else>
+				<a href="index.html" class="header__logo">
+					<img src="@img/logo.svg" alt="Logo" class="header__logo-img">
+				</a>
+			</else>
+		</div>
+		<div class="header__items">
+			<include src="@components/layout/menu/menu.html" locals='{"active":"[[active]]"}'></include>
+			<a href="#" data-fls-button class="header__button button button--lite">Let's talk</a>
+			<button type="button" data-fls-menu class="menu__icon icon-menu"><span></span></button>
+		</div>
 	</div>
 </header>
