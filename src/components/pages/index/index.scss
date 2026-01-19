@@ -1,2 +1,31 @@
-.index {
+.page {
+
+		&__hero {
+		}
 }
+.page--home {
+}
+.hero {
+
+		&__container {
+		}
+
+		&__image {
+            margin-top: 140px;
+            display: flex;
+            justify-content: center;
+            mix-blend-mode: lighten;
+		}
+}
+.blockgeader {
+
+		&__title {
+		}
+
+		&__title-italic {
+		}
+
+		&__text {
+		}
+}
+

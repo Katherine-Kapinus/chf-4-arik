@@ -70,6 +70,46 @@
         "date": "18.01.2026",
         "start": 1768737844644,
         "end": 1768768495272
+      },
+      {
+        "date": "19.01.2026",
+        "start": 1768837086843,
+        "end": 1768841556951
+      },
+      {
+        "date": "19.01.2026",
+        "start": 1768841574601,
+        "end": 1768845506806
+      },
+      {
+        "date": "19.01.2026",
+        "start": 1768845524773,
+        "end": 1768845809476
+      },
+      {
+        "date": "19.01.2026",
+        "start": 1768845824613,
+        "end": 1768846192337
+      },
+      {
+        "date": "19.01.2026",
+        "start": 1768846200341,
+        "end": 1768856337770
+      },
+      {
+        "date": "19.01.2026",
+        "start": 1768856392444,
+        "end": 1768856985762
+      },
+      {
+        "date": "19.01.2026",
+        "start": 1768856995868,
+        "end": 1768857481635
+      },
+      {
+        "date": "19.01.2026",
+        "start": 1768857490397,
+        "end": 1768858280657
       }
     ],
     "files": [
@@ -101,7 +141,16 @@
       "header.html",
       "menu.html",
       "header.scss",
-      "menu.scss"
+      "menu.scss",
+      "Gambetta-LightItalic.otf",
+      "Gambetta-LightItalic.ttf",
+      "tch.svg",
+      "twiter.svg",
+      "tviter.svg",
+      "_components.html",
+      "blockgeader.html",
+      "blockgeader.scss",
+      "index.scss"
     ]
   }
 }

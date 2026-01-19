@@ -1,63 +1,55 @@
 .header {
 	position: fixed;
-	top: 48px;
+	top: 15px;
 	left: 0;
 	right: 0;
-	display: flex;
-	@media (max-width: toEm($mobile)) {
-		top: 8px;
+	z-index: 50;
+	pointer-events: none;
+	transition:
+		margin-top 0.8s,
+		top 0.8s;
+	@media (min-width: toEm($mobile)) {
+		top: 48px;
 	}
-
+	// .header__container
 	&__container {
-		display: flex;
-		flex-wrap: wrap;
-		align-items: center;	
-		gap: 3px 20px;
-		padding: 12px;
-		border: 2px solid $mainColorMuted;
-		border-radius: 2px;
-		@media (max-width: toEm($mobile)) {
-			position: relative;
-			flex: 1 1 auto;
-			justify-content: space-between;
-			margin: 24px;
-			padding: 8px 12px;
-			&::before {
-				content: "";
-				background-color: $mainColorVeryMuted;
-				backdrop-filter: blur(10px);
-				position: absolute;
-				inset: 0;
-				z-index: 10;
-				}
-		}
+		pointer-events: auto;
 	}
-
-	&__items{
+	// .header__logo
+	&__logo,
+	&__link-logo,
+	&__button {
+		position: relative;
+		z-index: 2;
+	}
+	// .header__body
+	&__body {
 		display: flex;
 		align-items: center;
-		gap: 0 20px;
-		flex-wrap: wrap;
-		@media (max-width: toEm($mobile)) {
-			gap: 0 12px;
-			
+		padding: 12px;
+		gap: 15px;
+		position: relative;
+		&::before {
+			content: "";
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 100%;
+			backdrop-filter: blur(15px);
+			border-radius: 2px;
+			border: 1px solid $mainColorMuted;
+			background-color: $mainColorVeryMuted;
+			z-index: 1;
 		}
 
+		@media (min-width: toEm($mobile)) {
+			gap: 32px;
+			padding-left: 24px;
+		}
 	}
-
-	&__logo-img {
-		padding-inline: 12px;
-		@media (max-width: toEm($mobile)) {
-			position: relative;
-			z-index: 11;
-			padding-inline: 0;
-		}
-	}
-
-	&__button{
-		@media (max-width: toEm($mobile)) {
-			position: relative;
-			z-index: 11;
-		}
+	@media (min-width: toEm($mobile)) {
+		display: flex;
+		justify-content: center;
 	}
 }

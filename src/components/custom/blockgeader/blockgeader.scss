@@ -1,0 +1,37 @@
+.blockgeader {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      row-gap: 16px;
+
+		&__label {
+            font-size: 13px;
+            font-family: "Satoshi",sans-serif;
+            line-height: 21px;
+            letter-spacing: 1.5px;
+            text-transform: uppercase;
+		}
+
+		&__title {
+            font-size: 128px;
+            font-family: "Satoshi",sans-serif;
+            font-weight: 300;
+            max-width: 1000px;
+                  &--size-160 {
+                        font-size: 160px;
+                  }
+            }
+            &__title-italic {
+                  font-style: italic;
+                  font-family: "Gambetta", serif;
+            }
+
+		&__text {
+            color: #dac5a7;
+            font-size: 20px;
+            font-family: "Chillax",sans-serif;
+            line-height: 34px;
+            max-width: 500px;
+		}
+}
